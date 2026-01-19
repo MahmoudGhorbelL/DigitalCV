@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mon CV - Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Mon Digital Curriculum Vitae</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/parcours.html">Parcours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/competences.html">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/experiences.html">Stages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/evenements.html">Évènements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/matieres.html">Matières</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/passions.html">Passions</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="../pages/quiz.html">Quizz</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/temoignage.html">Témoignage</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="quiz">
+        <h2>Quiz – Tu me connais vraiment ?</h2>
+        <form id="quizForm">
+            <p>1. Où est-ce que j’étudie actuellement ?</p>
+            <input type="radio" name="q1" value="1"> IIT Sfax<br>
+            <input type="radio" name="q1" value="0"> ENSI<br>
+            <input type="radio" name="q1" value="0"> ISET Sfax<br>
+
+            <p>2. Quelle est ma spécialité actuelle ?</p>
+            <input type="radio" name="q2" value="0"> Informatique de gestion<br>
+            <input type="radio" name="q2" value="0"> Réseaux & Télécom<br>
+            <input type="radio" name="q2" value="1"> Génie Informatique<br>
+
+            <p>3. Où ai-je obtenu ma licence ?</p>
+            <input type="radio" name="q3" value="0"> IIT Sfax<br>
+            <input type="radio" name="q3" value="0"> FST<br>
+            <input type="radio" name="q3" value="1"> ISET Sfax<br>
+
+            <p>4. En quelle année ai-je eu mon bac ?</p>
+            <input type="radio" name="q4" value="0"> 2021<br>
+            <input type="radio" name="q4" value="1"> 2022<br>
+            <input type="radio" name="q4" value="0"> 2023<br>
+
+            <p>5. Quelles technologies j’ai utilisées pour mon PFE ?</p>
+            <input type="radio" name="q5" value="1"> Flutter & PHP<br>
+            <input type="radio" name="q5" value="0"> React & Node.js<br>
+            <input type="radio" name="q5" value="0"> Java uniquement<br>
+
+            <p>6. Où ai-je réalisé mon PFE ?</p>
+            <input type="radio" name="q6" value="0"> Tunisie Telecom<br>
+            <input type="radio" name="q6" value="0"> Vermeg<br>
+            <input type="radio" name="q6" value="1"> VISS-Tunisie<br>
+
+            <p>7. Quel framework mobile je maîtrise le mieux ?</p>
+            <input type="radio" name="q7" value="1"> Flutter<br>
+            <input type="radio" name="q7" value="0"> Ionic<br>
+            <input type="radio" name="q7" value="0"> Xamarin<br>
+
+            <p>8. Quel framework backend j’utilise ?</p>
+            <input type="radio" name="q8" value="0"> Laravel uniquement<br>
+            <input type="radio" name="q8" value="0"> Django uniquement<br>
+            <input type="radio" name="q8" value="1"> Node.js<br>
+
+            <p>9. À quel événement ai-je participé ?</p>
+            <input type="radio" name="q9" value="1"> Event Area 0.2 – 12/2022<br>
+            <input type="radio" name="q9" value="0"> DevFest 2024<br>
+            <input type="radio" name="q9" value="0"> Hackathon Google<br>
+
+            <p>10. Quel langage j’utilise le plus sur GitHub ?</p>
+            <input type="radio" name="q10" value="0"> PHP<br>
+            <input type="radio" name="q10" value="1"> Dart<br>
+            <input type="radio" name="q10" value="0"> C++<br>
+
+            <p>11. Quel langage backend je maîtrise le mieux ?</p>
+            <input type="radio" name="q11" value="1"> JavaScript (Node.js)<br>
+            <input type="radio" name="q11" value="0"> PHP<br>
+            <input type="radio" name="q11" value="0"> Ruby<br>
+
+            <p>12. Quel framework web j’ai utilisé pour mon mini-projet maison d’hôtes ?</p>
+            <input type="radio" name="q12" value="0"> React<br>
+            <input type="radio" name="q12" value="1"> Angular<br>
+            <input type="radio" name="q12" value="0"> Vue.js<br>
+
+            <p>13. Quelle formation ai-je suivie ?</p>
+            <input type="radio" name="q13" value="0"> Marketing Digital<br>
+            <input type="radio" name="q13" value="0"> Photoshop uniquement<br>
+            <input type="radio" name="q13" value="1"> Flutter, Angular, Spring Boot, IA<br>
+
+            <p>14. Quel type d’application ai-je développé pour mon PFE ?</p>
+            <input type="radio" name="q14" value="0"> Site e-commerce<br>
+            <input type="radio" name="q14" value="0"> Jeu vidéo 3D<br>
+            <input type="radio" name="q14" value="1"> Application mobile intelligente de collecte<br>
+
+            <p>15. Quels SGBD ai-je utilisés ?</p>
+            <input type="radio" name="q15" value="1"> MySQL & MongoDB<br>
+            <input type="radio" name="q15" value="0"> Access<br>
+            <input type="radio" name="q15" value="0"> Oracle uniquement<br>
+
+            <br>
+            <button type="button" onclick="verifierQuiz()">Valider</button>
+
+        </form>
+        <div id="resultat"></div>
+        <div id="reponses"></div>
+
+    </section>
+
+    <script src="../js/quiz.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,371 @@
+/* accueil */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #222;
+}
+
+.profil {
+    background: #1F7A8C;
+    color: white;
+    padding: 40px 20px;
+}
+
+.profil-content {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.profil-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #E0FBFC;
+    margin-right: 30px;
+}
+
+.btn-contact {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #E0FBFC;
+    color: #1F7A8C;
+    text-decoration: none;
+}
+
+.about,
+.social {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.about h2,
+.social h2 {
+    color: #1F7A8C;
+}
+
+.social-icons a {
+    margin-right: 20px;
+    font-size: 28px;
+    color: #000000;
+}
+
+/* parcours */
+
+.parcours {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+.parcours h2 {
+    color: #1F7A8C;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.parcours-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+
+.parcours-text h3 {
+    color: #1F7A8C;
+}
+
+
+.parcours-img img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #1F7A8C;
+}
+
+/* compétences */
+
+.competences {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.competences h2 {
+    color: #1F7A8C;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.competence-table {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.competence-table th,
+.competence-table td {
+    padding: 16px;
+    text-align: left;
+}
+
+.competence-table th {
+    background: #1F7A8C;
+    color: white;
+}
+
+.competence-table tr:nth-child(even) {
+    background: #E0FBFC;
+}
+
+.competence-table tr:hover {
+    background: #d9f3f5;
+}
+
+/* experiences */
+.experiences {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.experiences h2 {
+    color: #1F7A8C;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.experience {
+    background: #e7eff9;
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+
+.experience h3 {
+    margin-top: 0;
+    color: #1F7A8C;
+}
+
+.experience ul {
+    margin: 10px 0 0 20px;
+}
+
+/* evenements */
+.evenements {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+.evenements h2 {
+    color: #1F7A8C;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.evenement-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+
+.evenement-text h3 {
+    color: #1F7A8C;
+    margin-bottom: 5px;
+}
+
+
+.evenement-text p {
+    margin: 4px 0;
+}
+
+
+.evenement-img img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #1F7A8C;
+}
+
+/* matières */
+.matieres {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.matieres h1 {
+    color: #1F7A8C;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* passions */
+.passions {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.passions h2 {
+    text-align: center;
+    color: #1F7A8C;
+    margin-bottom: 30px;
+}
+
+.passions h3 {
+    color: #1F7A8C;
+    margin-top: 30px;
+}
+
+.passions p {
+    line-height: 1.6;
+}
+
+.passions ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* quiz */
+.quiz {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.quiz h2 {
+    color: #1F7A8C;
+    text-align: center;
+}
+
+.quiz p {
+    font-weight: bold;
+}
+
+.quiz button {
+    padding: 10px 20px;
+    background: #1F7A8C;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+/* contact */
+
+.contact {
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f2fbfd;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.contact-form {
+    margin-right: 30px;
+}
+
+.contact-form h2 {
+    color: #1F7A8C;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.contact-form button {
+    background: #1F7A8C;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+.contact-image img {
+    width: 350px;
+}
+
+/* témoignage */
+.temoignage{
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.temoignage h1{
+    text-align: center;
+    color: #1F7A8C;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.temoignage-card{
+    display: flex;
+    background: #f2fbfd;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.temoignage-left img{
+    width: 420px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.temoignage-right{
+    padding: 40px;
+}
+
+.temoignage-right h2{
+    color: #1F7A8C;
+    margin-bottom: 15px;
+}
+
+.temoignage-right h3{
+    color: #145f6f;
+    margin-top: 25px;
+}
+
+.temoignage-right p{
+    line-height: 1.7;
+    color: #333;
+}
+
